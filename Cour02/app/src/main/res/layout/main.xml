@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="296dp"
+        android:layout_weight="1"
+        app:srcCompat="@android:drawable/arrow_down_float"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="470dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:lineSpacingExtra="10sp"
+            android:rotationX="4"
+            android:scaleX="1"
+            android:text="testView"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:typeface="sans"
+            tools:text="Cimonaque de baptême de purée de cibouleau de crucifix d'étole de cossin de gériboire d'ostie de caltor de sapristi de boswell de sacristi de ciarge de viande à chien de câlique de géritole de saint-cimonaque de sacréfice de sainte-viarge de torrieux de p'tit Jésus de mautadit de mosus de saint-ciarge de verrat de crisse de torvisse d'astie de cibolac de câliboire de mautadine de bâtard de colon d'esprit de saint-ciboire de bout d'viarge de batince d'ostifie de cochonnerie." />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="215dp"
+        android:layout_weight="1"
+        android:text="Button" />
+
+</LinearLayout>
